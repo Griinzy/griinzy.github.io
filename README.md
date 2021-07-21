@@ -1,0 +1,2 @@
+# griinzy.github.io
+ bruh
