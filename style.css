@@ -32,8 +32,8 @@ p{
 .links{
     display: block;
     text-align: center;
-    background-color: #4c566a;
-    color:#e5e9f0;
+    background-color: #88c0d0;
+    color:#3b4252;
     border-radius: 5px;
     padding: 10px;
     padding-left: 10%;
@@ -49,5 +49,18 @@ p{
     border-bottom: #343841 2px solid;
 }
 .links:hover{
-    background-color: #434c5e;
+    background-color: #7faebb;
+}
+.mcbtn{
+    position: absolute;
+    top: 95%;
+    left: 93%;
+    color: #e5e9f0;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    transition: text-decoration 3s;
+}
+.mcbtn:hover{
+    text-decoration: underline;
 }
