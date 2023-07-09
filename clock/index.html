@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+</head>
+<body>
+    <div class="clock-container">
+        <span id="time"></span>
+    </div>
+</body>
+<style>
+    .clock-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 75px;
+        border-radius: 1.5rem;
+        margin: auto;
+        color: white;
+        background-color: rgb(80, 62, 46);
+        max-width: 300px;
+        height: 120px;
+    }
+</style>
+<script>
+    const date = new Date();
+    function refresh() {
+        document.getElementById("time").innerHTML = date.getHours() + ":" + date.getMinutes();
+    }
+    setInterval(refresh, 1000);
+</script>
+</html>
